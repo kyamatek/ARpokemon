@@ -1,0 +1,23 @@
+gitに保存
+
+・自分のパソコン内で
+Gitで管理したいフォルダ内部で
+git init
+git add -A
+(git status)
+git commit -m "first commitなど"
+
+・ネット上にあるリポジトリを持ってくる
+git clone URL
+
+
+・ネット上にあるリポジトリを更新する
+アップロードしたいファイルを入れて
+cd リポジトリ名 
+git add -A  (or  git add ファイル名)
+git commit -m "first commitなど"
+git push origin master
+
+
+・ネット上のリポジトリとローカルにあるリポジトリの差分を持ってくる
+git pull
