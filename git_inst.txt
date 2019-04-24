@@ -1,0 +1,14 @@
+gitに保存
+
+自分のパソコン内で
+git init
+git add -A
+(git status)
+git commit -m "first commitなど"
+
+webのとこに
+git clone URL
+できたフォルダの中に自分のフォルダ作ってその中にファイルを入れる
+git add -A
+git commit -m "first commitなど"
+git push origin master
